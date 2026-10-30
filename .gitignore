@@ -1,0 +1,34 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Large model artifacts / Checkpoints (uncomment if using Git LFS or external storage)
+# *.pth
+# *.pt
+# *.onnx
+
+# Raw datasets (keep manifests and split definitions tracked)
+data/raw/
+*.tar.gz
+
